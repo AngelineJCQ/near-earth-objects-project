@@ -10,41 +10,56 @@
             .text-container {
                 max-width: 760px;
                 margin: 0 auto;
-                margin-top: 100px;
             }
             
             .text-container img {
                 max-width: 100%;
-                background-color: #243949;
+                
             }
             
             .full-bleed-image {
+                background-color: #243949;
                 background-size: cover;
-                padding: 25em 0;
+                padding: 24em 0;
                 background-position: top center;
             }
             
             .full-bleed-image .image-text {
-                color: whitesmoke;
+                color: #243949;
+                font;
+                background-color: rgb(171, 214, 252, 0.6);
                 font-family: Open Sans;
-                text-shadow: 10 0 50px rgb(2, 2, 2);
-                margin-left: 40px;
-                margin-top: 100px;
+                font-weight: bolder;
+                text-shadow: 0 0 20px #FFFCC7;
+                margin-left: 20px;
+                padding: 30px;
+                margin-top: -100px;
                 font-size: 50px;
             }
             .chart-holder {
+                max-width:900px;
+                margin: 0 auto;
                 margin-top: 50px;
                 margin-bottom: 50px;
             }
             .chart-holder h3 {
+                font-family: Open Sans;
+                color:white;
+                padding-top: 30px;
                 font-weight: bold;
             }
             .chart-holder .subtitle {
-                font-size: 1.2em;
+                color:white;
+                font-family: Open Sans;
+                margin-top: -15px;
+                margin-bottom: 60px;
+                font-size: 1em;
             }
             .chart-holder .caption {
+                padding-top: 30px;
                 font-size: 0.9;
-                color: grey;
+                font-family: Open Sans;
+                color: rgb(201, 201, 201);
                 text-align: right;
             }
             .picture{
@@ -55,9 +70,25 @@
 
             }
             p {
+                color: whitesmoke;
+                font-family: Open Sans;
                 margin-top: 20px;
                 font-size: large;
                 line-height: 30px;
+            }
+
+            .first {
+                padding-top: 50px;
+            }
+
+            a {
+                color:#a4d3fa;
+            }
+            .space1 {
+                margin-top: 50px;
+            }
+            .space {
+                margin-top: 300px;
             }
         </style>
     </head>
@@ -68,9 +99,43 @@
             </div>
         </div>
         <div class='text-container'>
-            <p>TKTKTKTKTKT</p>
-            <p>TKTKTKTKTKT</p>
-            <p>If you are interested in my data and analysis process, please click <a href="https://github.com/AngelineJCQ/near-earth-objects-project/tree/main/docs">here</a>.</p>
+            <p class="first">Since humans began to explore the world beyond the earth, the fear of the unknown universe has never stopped. From Armageddon to Don’t look up, this kind of fear is continuously visualized in films, and it seems like one day there must be an asteroid flying directly towards our planet and ruining everything. </p >
+            <p>Before we figure out whether the earth would be destroyed, we should get to know about all these “NEOs”, whose full spelling is near-earth-object. </p >
+            <p><a href="https://en.wikipedia.org/wiki/Near-Earth_object">Near-Earth_object </a > is any small Solar System body whose orbit brings it into proximity with Earth. By convention, a Solar System body is a NEO if its closest approach to the Sun (perihelion) is less than 1.3 astronomical units (AU). If a NEO's orbit crosses the Earth's, and the object is larger than 140 meters (460 ft) across, it is considered a potentially hazardous object (PHO). Most known PHOs and NEOs are asteroids, but a small fraction is comets. </p >
+            <p>NASA has been dedicated to discovering NEOs. Over the last 20 years, NASA has dramatically increased the number of known NEOs – from knowing of less than a thousand to nearly 28,000. The precise dimensions of NEOs can be difficult to resolve due to their small size and great distances. </p >
+            <p>However, those estimated by NASA to be 140 meters or more along their longest axis – most asteroids are potato-shaped, so their dimensions can be described as roughly spherical – have been mandated by Congress to be classified as NEOs. </p >
         </div>
+        <div class='chart-holder'>
+            <h3>The sudden increase of NEOs in the past centry is due to administration reason</h3>
+            <div class="subtitle">The Congress mandated NASA to include any object longer than 140 meters in the dataset. </div>
+            <img alt="There is a huge increase in the numbers of detected NEOs from 2000 to 2020." src='img/vis1.svg'>
+            <div class='caption'>Source: https://www.kaggle.com/ramjasmaurya/near-earth-objects-observed-by-nasa</div>
+        </div>
+        <div class='text-container'>
+            <p>It happened around 2010 and here comes the <a href="https://www.congress.gov/bill/111th-congress/house-bill/5587?s=1&r=24 "> H.R.5587 — 111th Congress (2009-2010) </a>, which was proposed in 2010, indirectly contributed to the discovery of NEOs. Its contents are: establishes in the legislative branch the United States Commission on Planetary Defense to (1) review the structure, coordination, management policies, and procedures of the federal government, and as appropriate, international bodies, and non-governmental entities, relative to the detection, characterization, mitigation, and overall response efforts to dangerous Near-Earth Objects (NEOs). But in fact, the discovery of NEOs overwhelms the value of “defense”. </p >
+            <p>The increase in the number of objects classified as NEOs was in part due to this mandate. Anything of this size could have a catastrophic impact on Earth, destroying cities with large losses of life. This awareness leads to more reporting of objects. </p >
+            <p>Also, NEOWISE, launched in December 2009, was originally designed to survey the sky in infrared, detecting asteroids, stars and some of the faintest galaxies in space. It completed its primary mission in February 2011 during which NEOWISE detected more than 158,000 minor planets, 34,000 of which had never been discovered previously. </p >
+            <p>So, are there any NEOs that could be dangerous to the earth? </p >
+        </div>
+        <div class='chart-holder'>
+            <h3>Those NEOs closer than moon are quite small, with the median 12.5m and 0.5 LD</h3>
+            <div class="subtitle">The smaller an NEO, the more numerous they are, is the general rule of thumb for our solar system.</div>
+            <img alt="There is a huge increase in the numbers of detected NEOs from 2000 to 2020." src='img/vis2.svg'>
+            <div class='caption'>Source: https://www.kaggle.com/ramjasmaurya/near-earth-objects-observed-by-nasa</div>
+        </div>
+        <div class='text-container'>
+            <p>First, three objects are flying to less than 0.02 LD, which means they are among the closest group to the earth, but all of them are quite small. They are (2020 QG) (2020 VT4) and (2021 UA1). </p >
+            <p><a href="https://en.wikipedia.org/wiki/2020_QG">2020 QG</a>, also known by its internal designation ZTF0DxQ, is an Earth-crossing asteroid, a few meters in diameter. It belongs to the Apollo group and passed above the surface of Earth approximately 2,950 kilometers (1,830 mi) away (less than one-quarter of Earth's diameter) on 16 August 2020 at 04:09 UT. It was first imaged by the Zwicky Transient Facility (ZTF) at the Palomar Observatory about 6 hours after this closest approach. </p >
+            <p><a href="https://en.wikipedia.org/wiki/2020_VT4"> 2020 VT4</a> is a tiny near-Earth asteroid that passed 370 km (230 mi) above Earth's surface on 13 November 2020 at 17:20 UTC. The asteroid was discovered by the Asteroid Terrestrial-impact Last Alert System (ATLAS) survey at the Mauna Loa Observatory fifteen hours after its closest approach to Earth. </p >
+            <p><a href="https://en.wikipedia.org/wiki/2021_UA1"> 2021 UA1</a> is a small (~2 meter) near-Earth object that passed about 3047 km from the surface of Earth while passing over Antarctica on 25 October 2021 around 03:07 UT. Given the small size of the asteroid, it only reached the brightness of Pluto at around apparent magnitude 14. Since it approached from the direction of the Sun, it was not discovered until 4 hours after the closest approach. It has visited the earth several times. </p >
+            <p>And also, three objects have the largest body size while being close to the Earth, (153814) 2001 WN5, (153201) 2000 WO107, and 497117 (2004 FU4). </p >
+            <p><a href="https://en.wikipedia.org/wiki/(153814)_2001_WN5"> (153814) 2001 WN5</a>, was discovered by the Lowell Observatory Near-Earth-Object Search at Anderson Mesa Station on 20 November 2001, the potentially hazardous asteroid was removed from the Sentry Risk Table on 30 January 2002. </p >
+            <p><a href="https://en.wikipedia.org/wiki/(153201)_2000_WO107">(153201) 2000 WO107</a>, is a sub-kilometer asteroid, classified as a near-Earth object and potentially hazardous asteroid of the Aten group with a very well determined orbit. It was discovered on 29 November 2000, by astronomers of the Lincoln Near-Earth Asteroid Research (LINEAR) at the Lincoln Laboratory's Experimental Test Site near Socorro, New Mexico, in the United States. </p >
+            <p><a href="https://www.spacereference.org/asteroid/497117-2004-fu4"> 497117 (2004 FU4)</a>, orbits the sun every 517 days (1.42 years), coming as close as 0.93 AU and reaching as far as 1.59 AU from the sun. Based on its brightness and the way it reflects light, 2004 FU4 is probably between 0.598 to 1.337 kilometers in diameter, making it larger than ~97% of asteroids but small compared to large asteroids, very roughly comparable in size to the Golden Gate Bridge. </p >
+            <p>The latter two are still on the list of PHA, which means they are “Potentially Hazardous Asteroid”. But for (153201) 2000 WO107, the orbit of this potentially hazardous asteroid (PHA) has been well-established with 20 years of observations. It orbits from inside the orbit of Mercury out to the orbit of Mars. It makes close approaches to all of the inner planets. And just in 2020, the asteroid came to perihelion on 13 October when it passed the Sun going 88 kilometers per second (320,000 kilometers per hour). We know when they might come again and at the same time, " close " is a relative concept, even the nearest PHA is quite far away from us in the absolute distance. </p >
+            <div class="space1"></div>
+            <p><i>If you are interested in my data and analysis process, please click <a href="https://github.com/AngelineJCQ/near-earth-objects-project/tree/main/docs">here</a>.</i></p>
+        </div>
+        <div class="space"></div>
     </body>
 </html>
